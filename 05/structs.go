@@ -38,9 +38,9 @@ func (cir Circle) Area() float64 {
 }
 
 func (t Triangle) Perimeter() float64 {
-	return
+	return t.Baseline + t.Height + 17
 }
 
 func (t Triangle) Area() float64 {
-	return 0
+	return (t.Baseline * t.Height) * 0.5
 }
